@@ -1,5 +1,5 @@
 'use strict';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
     Text,
     View,
@@ -11,8 +11,8 @@ import {
     InteractionManager
 } from 'react-native';
 import styles from '../styleSheet/Styles';
-import {BAOYANG_LIST, SHOW_FORM} from '../constantsUrl/Urls';
-import {toastLong} from '../util/ToastUtil';
+import { BAOYANG_LIST, SHOW_FORM } from '../constantsUrl/Urls';
+import { toastLong } from '../util/ToastUtil';
 import TopBar from '../component/TopBar';
 var Dimensions = require('Dimensions');
 import WebView from './WebViewExample'
@@ -67,9 +67,9 @@ export default class JobOrderList extends Component {
                     loaded: true,
                 });
             }).catch(error => {
-            toastLong(error);
-            this.setState({loaded: true})
-        })
+                toastLong(error);
+                this.setState({ loaded: true })
+            })
             .done();
     }
 
@@ -139,7 +139,7 @@ export default class JobOrderList extends Component {
             items.push(d);
         }
         return (
-            <View style={{justifyContent: 'flex-start', flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center'}}>
+            <View style={{ justifyContent: 'flex-start', flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center' }}>
                 {items}
             </View>
         );
@@ -161,7 +161,7 @@ export default class JobOrderList extends Component {
         );
     }
 
-//切换下一周的函数
+    //切换下一周的函数
     nextWeek() {
         this.fetchData(
             BAOYANG_LIST,
@@ -174,7 +174,7 @@ export default class JobOrderList extends Component {
         );
     }
 
-//切换到本周的函数
+    //切换到本周的函数
     nowWeek() {
         this.fetchData(
             BAOYANG_LIST,
@@ -187,7 +187,7 @@ export default class JobOrderList extends Component {
         );
     }
 
-//点击一周某天的函数
+    //点击一周某天的函数
     _onPress(i, movie) {
         console.log(movie);
         let startTime = this.state.weekParm;
@@ -212,7 +212,7 @@ export default class JobOrderList extends Component {
         let responsibility_executor_user = movie.person;
         let url = `${SHOW_FORM}?formId=zjwg_EQKEEP_EQKEEP03&data[checkpoint]=${checkPoint}&data[monitor_executor_userId]=${monitor_executor_userId}&data[planId]=${planId}&data[responsibility_executor_user]=${responsibility_executor_user}&data[outTime]=${outTime}&data[areaName]=${areaName}&data[equipName]=${equipName}&data[equipId]=${equipId}&data[planTime]=${planTime}`;
         console.log(url);
-        const {navigator} = this.props;
+        const { navigator } = this.props;
         if (navigator) {
             navigator.push({
                 name: 'WebView',
@@ -239,10 +239,10 @@ export default class JobOrderList extends Component {
                 }]}>
                     <View style={styles.itemRow}>
                         <View style={styles.row}><Text
-                            style={{fontSize: 16, fontWeight: 'bold'}}>{movie.vo.areaName}</Text></View>
-                        <View style={styles.row}><Text style={{fontSize: 16}}>{movie.vo.equipName}</Text></View>
+                            style={{ fontSize: 16, fontWeight: 'bold' }}>{movie.vo.areaName}</Text></View>
+                        <View style={styles.row}><Text style={{ fontSize: 16 }}>{movie.vo.equipName}</Text></View>
                         <View style={styles.row}><Text
-                            style={{fontSize: 16}}>{movie.vo.partName == null || movie.vo.partName == "" ? "整机" : movie.vo.partName}</Text></View>
+                            style={{ fontSize: 16 }}>{movie.vo.partName == null || movie.vo.partName == "" ? "整机" : movie.vo.partName}</Text></View>
                     </View>
                     {this.renderWeek(movie)}
                 </View>
@@ -275,15 +275,15 @@ export default class JobOrderList extends Component {
     renderFooter() {
         if (this.state.total >= ((this.state.start) * (this.state.count))) {
             return (
-                <View style={ styles.footerLoading }>
+                <View style={styles.footerLoading}>
                     <ActivityIndicator
                     />
                 </View>
             );
         } else {
             return (
-                <View style={ styles.footerLoading }>
-                    <Text style={ styles.footerLoadingTxt }>
+                <View style={styles.footerLoading}>
+                    <Text style={styles.footerLoadingTxt}>
                         暂无更多数据...
                     </Text>
                 </View>
@@ -295,7 +295,7 @@ export default class JobOrderList extends Component {
         return (
             <View style={styles.container}>
                 <View style={styles.loading}>
-                    <ActivityIndicator size="large" color="#6435c9"/>
+                    <ActivityIndicator size="large" color="#6435c9" />
                 </View>
             </View>
         );
@@ -304,7 +304,7 @@ export default class JobOrderList extends Component {
     renderMovieList() {
         return (
             <View style={styles.msgContainer}>
-                <TopBar name='保养' onBackUp={this.onBackUp}/>
+                <TopBar name='保养' onBackUp={this.onBackUp} />
 
                 <View style={{
                     height: 55,
@@ -315,18 +315,18 @@ export default class JobOrderList extends Component {
                     borderWidth: 1,
                     backgroundColor: '#ffffff'
                 }}>
-                    <View style={{flex: 1, alignItems: 'flex-start'}}>
+                    <View style={{ flex: 1, alignItems: 'flex-start' }}>
                         <TouchableOpacity onPress={this.preWeek.bind(this)}>
                             <Text>上一周</Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={{flex: 2, alignItems: 'center'}}>
+                    <View style={{ flex: 2, alignItems: 'center' }}>
                         <TouchableOpacity onPress={() => this.nowWeek()}>
-                            <Text style={{textAlign: 'center', fontWeight: 'bold'}}>本周计划</Text>
+                            <Text style={{ textAlign: 'center', fontWeight: 'bold' }}>本周计划</Text>
                             <Text>{this.state.weekParm}至{this.state.endDate}</Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={{flex: 1, alignItems: 'flex-end'}}>
+                    <View style={{ flex: 1, alignItems: 'flex-end' }}>
                         <TouchableOpacity onPress={() => this.nextWeek()}>
                             <Text>下一周</Text>
                         </TouchableOpacity>

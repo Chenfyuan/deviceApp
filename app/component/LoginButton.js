@@ -12,14 +12,14 @@ import {
 import Styles from '../styleSheet/Styles'
 export default class LoginButton extends Component {
   constructor(props) {
-   super(props);
-   this.state = {text: ''};
+    super(props);
+    this.state = { text: '' };
   }
   render() {
     return (
       <TouchableOpacity onPress={this.props.onPressCallback} style={Styles.loginTextView}>
         <Text style={Styles.loginText} >
-            {this.props.name}
+          {this.props.name}
         </Text>
       </TouchableOpacity>
     );

@@ -2,7 +2,7 @@
  * 首页
  */
 'use strict';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
     Text,
     Image,
@@ -17,10 +17,10 @@ import {
     StatusBar,
     ScrollView,
 } from 'react-native';
-import {toastLong, toastShort} from '../util/ToastUtil';
+import { toastLong, toastShort } from '../util/ToastUtil';
 import DeviceList from './DeviceList';
 import Qrcode from './Qrcode';
-import { SHOW_FORM, TONGJI_URL, HOST} from '../constantsUrl/Urls';
+import { SHOW_FORM, TONGJI_URL, HOST } from '../constantsUrl/Urls';
 import ModalDropdown from 'react-native-modal-dropdown';
 import MyInfo from './MyInfo';
 import UpdatePassWord from './UpdatePassWord';
@@ -80,17 +80,17 @@ export default class HomePage extends Component {
         //定时器，定时刷新首页消息数量
         this.interval = setInterval(() => {
             NetUtil.getDataAsync(`${HOST}getMsg.do`, (callback) => this.setState({
-                    yibanNum: callback.yibanNum,
-                    daibanNum: callback.daibanNum,
-                    msgNum: callback.msgNum,
-                })
+                yibanNum: callback.yibanNum,
+                daibanNum: callback.daibanNum,
+                msgNum: callback.msgNum,
+            })
             )
 
         }, 10000);
     }
 
     handleBack() {
-        const {navigator} = this.props;
+        const { navigator } = this.props;
         if (navigator && navigator.getCurrentRoutes().length > 2) {
             navigator.pop();
             return true;
@@ -125,32 +125,32 @@ export default class HomePage extends Component {
                     networkActivityIndicatorVisible={true}
                     backgroundColor="#2881B9"
                     barStyle="light-content"
-                    animated={true}/>
+                    animated={true} />
                 <View style={styles.navOutViewStyle}>
-                    <Text style={{color: '#ffffff', fontSize: 22, fontWeight: 'bold', paddingTop: 15}}>设备管理系统</Text>
+                    <Text style={{ color: '#ffffff', fontSize: 22, fontWeight: 'bold', paddingTop: 15 }}>设备管理系统</Text>
                     {
                         Platform.OS == 'android' ?
                             <TouchableOpacity onPress={this.goBack.bind(this)} style={styles.leftViewStyle}>
                                 <ModalDropdown style={styles.dropdown_6}
-                                               options={ANDROID_OPTION}
-                                               dropdownStyle={styles.dropdown_2_dropdown}
-                                               renderRow={this._dropdown_2_renderRow.bind(this)}
-                                               onSelect={(idx, value) => this._dropdown_6_onSelect(idx, value)}>
+                                    options={ANDROID_OPTION}
+                                    dropdownStyle={styles.dropdown_2_dropdown}
+                                    renderRow={this._dropdown_2_renderRow.bind(this)}
+                                    onSelect={(idx, value) => this._dropdown_6_onSelect(idx, value)}>
                                     <Icon name="bars" size={24} color="#ffffff"></Icon>
                                 </ModalDropdown>
                             </TouchableOpacity> :
                             <TouchableOpacity onPress={this.goBack.bind(this)} style={styles.leftViewStyle}>
                                 <ModalDropdown style={styles.dropdown_6}
-                                               options={IOS_OPTION}
-                                               dropdownStyle={[styles.dropdown_2_dropdown, {height: 80}]}
-                                               renderRow={this._dropdown_2_renderRow.bind(this)}
-                                               onSelect={(idx, value) => this._dropdown_6_onSelect(idx, value)}>
+                                    options={IOS_OPTION}
+                                    dropdownStyle={[styles.dropdown_2_dropdown, { height: 80 }]}
+                                    renderRow={this._dropdown_2_renderRow.bind(this)}
+                                    onSelect={(idx, value) => this._dropdown_6_onSelect(idx, value)}>
                                     <Icon name="bars" size={24} color="#ffffff"></Icon>
                                 </ModalDropdown>
                             </TouchableOpacity>
                     }
                 </View>
-                <View style={{flex: 1}}>
+                <View style={{ flex: 1 }}>
 
                     <View style={styles.taskView}>
                         <View style={styles.taskNumView}>
@@ -171,7 +171,7 @@ export default class HomePage extends Component {
                     </View>
                     <View style={styles.taskView1}>
                         <TouchableOpacity onPress={this._onchangeTab.bind(this, JobOrderList, '待办列表', null, '')}
-                                          style={styles.taskNumView}>
+                            style={styles.taskNumView}>
                             <View >
                                 <Text style={styles.taskNumText}>
                                     待办/项
@@ -179,7 +179,7 @@ export default class HomePage extends Component {
                             </View>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={this._onchangeTab.bind(this, YibanList, '已办列表', null, '')}
-                                          style={styles.taskNumView}>
+                            style={styles.taskNumView}>
                             <View>
                                 <Text style={styles.taskNumText}>
                                     已办/项
@@ -187,7 +187,7 @@ export default class HomePage extends Component {
                             </View>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={this._onchangeTab.bind(this, MsgList, '消息列表', null, '')}
-                                          style={styles.taskNumView}>
+                            style={styles.taskNumView}>
                             <View >
                                 <Text style={styles.taskNumText}>
                                     新消息/条
@@ -207,112 +207,112 @@ export default class HomePage extends Component {
 
 
                 <View style={styles.menuView}>
-<ScrollView>
-    <View>
-        <View style={{flexDirection:'row'}}>
-            <TouchableOpacity style={{
-                width: (screenW / 2) - 10,
-                height: (screenW / 3),
-                margin: 4,
-                backgroundColor: '#faedee',
-                alignItems: 'center'
-            }}
-                              onPress={() => this._onchangeTab(Qrcode, '报修', `${SHOW_FORM}?formId=WXLC_GZBX&data[type]=1`, 'Warning')}>
-                <Image source={require('../../images/BAOXIU.png')} style={styles.iconStyle}/>
-                <Text style={{
-                    color: '#ed6c6c',
-                    fontSize: 22,
-                    paddingTop: 8
-                }}>报修</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width: (screenW / 2) - 10,
-                height: (screenW / 3),
-                margin: 4,
-                backgroundColor: '#f9f2eb',
-                alignItems: 'center'
-            }}
-                              onPress={() => this._onchangeTab(Qrcode, '例检', `${SHOW_FORM}?formId=ems_SJJCLC_SJJC01`, 'RegularCheck')}>
-                <Image source={require('../../images/LIJIAN.png')} style={styles.iconStyle}/>
-                <Text style={{
-                    color: '#de8827',
-                    fontSize: 22,
-                    paddingTop: 8
-                }}>例检</Text>
-            </TouchableOpacity>
-        </View>
-    </View>
+                    <ScrollView>
+                        <View>
+                            <View style={{ flexDirection: 'row' }}>
+                                <TouchableOpacity style={{
+                                    width: (screenW / 2) - 10,
+                                    height: (screenW / 3),
+                                    margin: 4,
+                                    backgroundColor: '#faedee',
+                                    alignItems: 'center'
+                                }}
+                                    onPress={() => this._onchangeTab(Qrcode, '报修', `${SHOW_FORM}?formId=WXLC_GZBX&data[type]=1`, 'Warning')}>
+                                    <Image source={require('../../images/BAOXIU.png')} style={styles.iconStyle} />
+                                    <Text style={{
+                                        color: '#ed6c6c',
+                                        fontSize: 22,
+                                        paddingTop: 8
+                                    }}>报修</Text>
+                                </TouchableOpacity>
+                                <TouchableOpacity style={{
+                                    width: (screenW / 2) - 10,
+                                    height: (screenW / 3),
+                                    margin: 4,
+                                    backgroundColor: '#f9f2eb',
+                                    alignItems: 'center'
+                                }}
+                                    onPress={() => this._onchangeTab(Qrcode, '例检', `${SHOW_FORM}?formId=ems_SJJCLC_SJJC01`, 'RegularCheck')}>
+                                    <Image source={require('../../images/LIJIAN.png')} style={styles.iconStyle} />
+                                    <Text style={{
+                                        color: '#de8827',
+                                        fontSize: 22,
+                                        paddingTop: 8
+                                    }}>例检</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
 
-    <View>
-        <View style={{flexDirection:'row'}}>
-            <TouchableOpacity style={{
-                width: (screenW / 2) - 10,
-                height: (screenW / 3),
-                margin: 4,
-                backgroundColor: '#e9f0f5',
-                alignItems: 'center'
-            }} onPress={() => this._onchangeTab(DianJian, '设备点检', null, 'rcjclc_app')}>
-                <Image source={require('../../images/DIANJIAN.png')} style={styles.iconStyle}/>
-                <Text style={{
-                    color: '#2889d2',
-                    fontSize: 22,
-                    paddingTop: 8
-                }}>点检</Text>
-            </TouchableOpacity>
+                        <View>
+                            <View style={{ flexDirection: 'row' }}>
+                                <TouchableOpacity style={{
+                                    width: (screenW / 2) - 10,
+                                    height: (screenW / 3),
+                                    margin: 4,
+                                    backgroundColor: '#e9f0f5',
+                                    alignItems: 'center'
+                                }} onPress={() => this._onchangeTab(DianJian, '设备点检', null, 'rcjclc_app')}>
+                                    <Image source={require('../../images/DIANJIAN.png')} style={styles.iconStyle} />
+                                    <Text style={{
+                                        color: '#2889d2',
+                                        fontSize: 22,
+                                        paddingTop: 8
+                                    }}>点检</Text>
+                                </TouchableOpacity>
 
-            <TouchableOpacity style={{
-                width: (screenW / 2) - 10,
-                height: (screenW / 3),
-                margin: 4,
-                backgroundColor: '#e8f3f0',
-                alignItems: 'center'
-            }} onPress={() => this._onchangeTab(BaoYang, '设备保养', null, 'keep_app')}>
-                <Image source={require('../../images/BAOYANG.png')} style={styles.iconStyle}/>
-                <Text style={{
-                    color: '#3aa788',
-                    fontSize: 22,
-                    paddingTop: 8
-                }}>保养</Text>
-            </TouchableOpacity>
-        </View>
-    </View>
-    <View>
-        <View style={{flexDirection:'row'}}>
-            <TouchableOpacity style={{
-                width: (screenW / 2) - 10,
-                height: (screenW / 3),
-                margin: 4,
-                backgroundColor: '#eef9f9',
-                alignItems: 'center'
-            }}
-                              onPress={() => this._onchangeTab(TongJi, '统计', `${TONGJI_URL}?companyId=${this.state.orgId}`, 'StatisAnalysis')}>
-                <Image source={require('../../images/TONGJI.png')} style={styles.iconStyle}/>
-                <Text style={{
-                    color: '#229fa5',
-                    fontSize: 22,
-                    paddingTop: 8
-                }}>统计</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width: (screenW / 2) - 10,
-                height: (screenW / 3),
-                margin: 4,
-                backgroundColor: '#f1ecf4',
-                alignItems: 'center'
-            }} onPress={() => this._onchangeTab(DeviceList, '设备台账', null, 'DeviceLedger')}>
-                <Image source={require('../../images/TAIZHANG.png')} style={styles.iconStyle}/>
-                <Text style={{
-                    color: '#7b5d9d',
-                    fontSize: 22,
-                    paddingTop: 8
-                }}>台账</Text>
-            </TouchableOpacity>
-        </View>
-    </View>
+                                <TouchableOpacity style={{
+                                    width: (screenW / 2) - 10,
+                                    height: (screenW / 3),
+                                    margin: 4,
+                                    backgroundColor: '#e8f3f0',
+                                    alignItems: 'center'
+                                }} onPress={() => this._onchangeTab(BaoYang, '设备保养', null, 'keep_app')}>
+                                    <Image source={require('../../images/BAOYANG.png')} style={styles.iconStyle} />
+                                    <Text style={{
+                                        color: '#3aa788',
+                                        fontSize: 22,
+                                        paddingTop: 8
+                                    }}>保养</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
+                        <View>
+                            <View style={{ flexDirection: 'row' }}>
+                                <TouchableOpacity style={{
+                                    width: (screenW / 2) - 10,
+                                    height: (screenW / 3),
+                                    margin: 4,
+                                    backgroundColor: '#eef9f9',
+                                    alignItems: 'center'
+                                }}
+                                    onPress={() => this._onchangeTab(TongJi, '统计', `${TONGJI_URL}?companyId=${this.state.orgId}`, 'StatisAnalysis')}>
+                                    <Image source={require('../../images/TONGJI.png')} style={styles.iconStyle} />
+                                    <Text style={{
+                                        color: '#229fa5',
+                                        fontSize: 22,
+                                        paddingTop: 8
+                                    }}>统计</Text>
+                                </TouchableOpacity>
+                                <TouchableOpacity style={{
+                                    width: (screenW / 2) - 10,
+                                    height: (screenW / 3),
+                                    margin: 4,
+                                    backgroundColor: '#f1ecf4',
+                                    alignItems: 'center'
+                                }} onPress={() => this._onchangeTab(DeviceList, '设备台账', null, 'DeviceLedger')}>
+                                    <Image source={require('../../images/TAIZHANG.png')} style={styles.iconStyle} />
+                                    <Text style={{
+                                        color: '#7b5d9d',
+                                        fontSize: 22,
+                                        paddingTop: 8
+                                    }}>台账</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
 
 
 
-</ScrollView>
+                    </ScrollView>
 
                 </View>
 
@@ -331,28 +331,28 @@ export default class HomePage extends Component {
             //APP更新
             toastLong("正在检查更新……")
             NetUtil.getDataAsync(`${HOST}core/app/appGetServerVer.do`, (reponseData) => {
-                    if (DeviceInfo.getVersion() == reponseData.versionCode || reponseData.versionCode == "") {
-                        toastLong(`当前版本[Ver${DeviceInfo.getVersion()}]已经是最新了！`);
-                    }
-                    else {
-                        Alert.alert(`发现新版本[${reponseData.versionCode}]`, reponseData.des,
-                            [
-                                {
-                                    text: '更新', onPress: () => {
+                if (DeviceInfo.getVersion() == reponseData.versionCode || reponseData.versionCode == "") {
+                    toastLong(`当前版本[Ver${DeviceInfo.getVersion()}]已经是最新了！`);
+                }
+                else {
+                    Alert.alert(`发现新版本[${reponseData.versionCode}]`, reponseData.des,
+                        [
+                            {
+                                text: '更新', onPress: () => {
                                     var nav = NativeModules.UpdateApp;
                                     let path = HOST + "update/" + reponseData.name + "." + reponseData.versionCode + ".apk";
                                     toastLong("正在下载……")
                                     nav.downloading(path, "deviceApp.apk")
                                 }
-                                },
-                                {
-                                    text: '忽略', onPress: () => {
+                            },
+                            {
+                                text: '忽略', onPress: () => {
                                 }
-                                },
-                            ]
-                        )
-                    }
+                            },
+                        ]
+                    )
                 }
+            }
             )
         }
     }
@@ -413,9 +413,9 @@ export default class HomePage extends Component {
      }
      }*/
 
-//页面导航事件
+    //页面导航事件
     _onchangeTab(component, funcName, navUrl, funccode) {
-        const {navigator} = this.props;
+        const { navigator } = this.props;
         if (navigator) {
             if (navigator) {
                 navigator.push({
@@ -436,7 +436,7 @@ export default class HomePage extends Component {
 
     //回退
     goBack() {
-        const {navigator} = this.props;
+        const { navigator } = this.props;
         if (navigator) {
             navigator.pop();
         }

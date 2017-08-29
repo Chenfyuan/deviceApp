@@ -1,11 +1,11 @@
 'use strict';
-import {toastLong} from '../util/ToastUtil';
+import { toastLong } from '../util/ToastUtil';
 import React, {
     NetInfo,
     Platform
 } from 'react-native';
 let NetUtil = {
-    postJson(url, data, callback){
+    postJson(url, data, callback) {
         var fetchOptions = {
             method: 'POST',
             headers: {
@@ -23,13 +23,13 @@ let NetUtil = {
                             callback(responseText);
                             console.log(responseText);
                         }).catch((error) => {
-                        console.log(error);
-                        console.log("获取数据失败，请尝试重新登录！");
-                        let text = {};
-                        text.MSG = "无法连接到服务器";
-                        console.log(text);
-                        callback(text);
-                    }).done();
+                            console.log(error);
+                            console.log("获取数据失败，请尝试重新登录！");
+                            let text = {};
+                            text.MSG = "无法连接到服务器";
+                            console.log(text);
+                            callback(text);
+                        }).done();
                 }
                 else {
                     toastLong("没有网络连接")
@@ -67,7 +67,7 @@ let NetUtil = {
 //ios平台
 if (Platform.OS == 'ios') {
     NetUtil = {
-        postJson(url, data, callback){
+        postJson(url, data, callback) {
             var fetchOptions = {
                 method: 'POST',
                 headers: {
@@ -81,12 +81,12 @@ if (Platform.OS == 'ios') {
                 .then((responseText) => {
                     callback(responseText);
                 }).catch((error) => {
-                console.log(error);
-                console.log("获取数据失败，请尝试重新登录！");
-                let text = {};
-                text.MSG = "无法连接到服务器";
-                callback(text);
-            }).done();
+                    console.log(error);
+                    console.log("获取数据失败，请尝试重新登录！");
+                    let text = {};
+                    text.MSG = "无法连接到服务器";
+                    callback(text);
+                }).done();
         },
         //获取数据
         async getDataAsync(url, callback) {

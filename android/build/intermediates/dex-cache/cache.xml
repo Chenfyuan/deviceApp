@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_5dbe93c1058432efe66235b3172244cc1c84283c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_322d85395d565a43f705e9cb57da343ddd2cf258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-vector-icons-unspecified_8e31721687b3878d3035324b174b0d0347e44db1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-fs\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0b2ff405a36cb175915ec00d8e3791a62b36f7ff">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-fs-unspecified_05caf3ab3039d9409f71e8a0149a8065958c5032.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\RNWebView\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db1ff7f906a747c55cad59b7a9a77a2938ef8268">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-RNWebView-unspecified_832057834d86c9e39edbf3ee3693e4a6bebbd434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_929d38849952bb8d2e54031c242e502fdced8097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.41.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b49a04a3016689b372ecbb77f0c33e486e768cca">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.41.2_161c1ca2fd7b15b4f1c34db1522dba435a240c32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_39f056f1ff92fd80ad4de9e7e67c663396d985f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_8ff3b9b00d58982b9c433044647852c00b68faf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_c7fb6b20584320778a53c07593097c8ffa19c9f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.11.0_f929b76c37a55a1b82ab1139ea3a262c32e6ed68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.11.0_c298cc27c52736c2597b4e49d5b3eb305b554731.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.11.0_f4112ad2b87fec03c1b19cfc961939279d80df17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_112a74d14c37ee2bfb0116d4f494c471aef765df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.4_62879a52d9661129a45e0492870c8069d28323be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_614976799488e93d1d94071f8bcbb75924ce9fd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_425f12f51d2953b1f90afe5a006fbe0b10005b26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-image-crop-picker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a3d8b3818bbac34545175fd18a2ed8f4a9f5519">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-image-crop-picker-unspecified_a59e445c48ea3cd12fc88cc4ec7bfc9d774c7753.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.4_0d654e27ab92d2e67981c2111db233c4bc8955f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.11.0_372330621199a735ebde83773e13dba7c1083255.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-camera\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="66cd78e49857db01469aaa1a28d274c9aa424bf5">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-camera-unspecified_84aaabba12829799729d2a93b4fa236d9adcefc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_cc5b9784133e3ba37863fbd6c4d43c06b9f29cb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.yalantis\ucrop\2.2.0-native\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="24497dd7ccdf848dde14335011e715dcc1110275">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.yalantis-ucrop-2.2.0-native_896f868cd1001b0a0e2592f23699cd620c1eff88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_756ba0395d906f3ec6c393f8dfc236fd60e45420.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_d3010b0e4e4d28a90b2238ba780eba6b6cac2f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.drewnoakes\metadata-extractor\2.9.1\53fdf22be10c9d426ec63431c7342895bc642261\metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\metadata-extractor-2.9.1_5a4b1333086e2100bd6b7b0ddbc9f041f2aa65c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.0.4_6b04fcb897a7e24943c17c90485032b9aed0388f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.adobe.xmp\xmpcore\5.1.2\55615fa2582424e38705487d1d3969af8554f637\xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\xmpcore-5.1.2_77d3eaba92400150a24f88527697c71202797a5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\library-2.4.0_13c33b6f8ba8fc60cbb4bbfad11b452089634040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_5e66c7ac9de72f70425de6c680c2060793eef8d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_44355834ada8c8ea764c9e08d9fabd2e89e2a88f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_8a1c3d557d9eb7f9ab83172475b211208318fe22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\libs\afinal_0.5_bin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="89729e3bc7f76890363b10e1e0dc5e57964c7807">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\afinal_0.5_bin_b8a39b09d00c3a6d3bcbc841ad52705c4f381905.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\id.zelory\compressor\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a724d5d031884220bae4a255f6d2763cd0ebdc4">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\id.zelory-compressor-1.0.4_af7845a803c62a0698bfafb44fa03fb3ac3931e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-audio\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="76521a4454423359c3dd08dce09989194fe46db0">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-audio-unspecified_3875ca4f538848cab65b0e7f45d54574c8340d4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_afc9817159cca4ff3ab856706e0b3521f4d0659c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.41.2\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_64bfd4b621ab3f679c8256e7b74430e0627955ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.11.0_54a06a56c7fa7fdd5e1c750689aa3dd8ae619c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_23940f9da4299a88fd1c98607408d4e5930336d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-0.11.0_651232a392e5a6332e676d018d8363cdce131ff6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_bb19ead236cf11934e8db623cde4e2f1bc971793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_d1a0e8c1664fd5a7ae94fa9134b04e8f58b3c6f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-device-info\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e4336ffc2b7653868134d7f6f8b28523ef54645">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-device-info-unspecified_886ddf7816286c0b12088558529ce83af3829aaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-11.0.4_d5d059c86f7d292f9fc451bea82ac562120453f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_d07af516ce8c2519d81485387283fa3442431760.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_4ec66df19f212934ed717b908091f8b4c04693ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_743499d70a6bdcb0e777ac93505f2714f6d90b89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-sound\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="076a1cd3cf088829675a6ed72ca3f7e0f5a843c5">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-sound-unspecified_885bbd8d43bf69e0fb403d447171c9f3ad76feb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\DeviceApp\react-native-image-picker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="185debb713f05e6ae262b4167d7645dce64ca4cb">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\DeviceApp-react-native-image-picker-unspecified_9ad24566b646feb9b2d50a15183e7e664b92581c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-11.0.4_d65c9b121ce56d206e5a532f69e58de46f120d42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Linweijian\Documents\react_native_workspace\deviceApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_1af7c793dbe69372e290cbf5a43f2fdda31f2bf0.jar" />
+    </item>
+
+</items>
